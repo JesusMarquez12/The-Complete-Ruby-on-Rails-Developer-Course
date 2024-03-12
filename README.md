@@ -1,0 +1,1 @@
+Private repository containing the resolution of the course *The Complete Ruby On Rails Developer Course*.
