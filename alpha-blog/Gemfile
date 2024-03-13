@@ -56,6 +56,12 @@ group :development do
   # Enviromental variable load
   gem "dotenv"
 
+  # Styling and linting helpers
+  gem "rubocop"
+  gem "rubocop-rails"
+  gem "rubocop-performance"
+  gem "solargraph"
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
