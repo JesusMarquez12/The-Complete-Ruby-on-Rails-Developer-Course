@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "pages#home"
   get "/about", to: "pages#about"
-  resources :articles, only: %i[show index new create edit update]
+  resources :articles # Add all RESTful routes: %i[show index new create edit update destroy]
 end
