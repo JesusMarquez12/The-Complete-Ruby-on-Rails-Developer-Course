@@ -11,9 +11,11 @@
   </head>
 
   <body>
+  
     <% flash.each do |name, msg| %>
       <%= msg %>
     <% end %>
+
     <%= yield %>
   </body>
   <footer><%= link_to "About Alpha Blog", about_path %></footer>
