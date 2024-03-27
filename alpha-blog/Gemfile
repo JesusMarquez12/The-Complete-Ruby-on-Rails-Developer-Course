@@ -20,6 +20,12 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
+# Gems needed for bootstrap to be incorporated to the project
+# TODO: Determine if is necessary to restrict this gems to determined environments
+gem 'jquery-rails'
+gem 'dartsass-sprockets'
+gem 'bootstrap', '~> 5.3.2'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
