@@ -1,11 +1,72 @@
+/*
+==========================================
+HTML TAGS
+==========================================
+*/
+html,           // Required for sticky footer
+body{           // Required for sticky footer
+  height: 100%;
+}
+
+/*
+  ========================================
+  NAVIGATION
+  ========================================
+*/
 .navbar {
-  background-color: #fdf6ea !important;
+  background-color: black !important;
 }
 
-.navbar-brand {
-  font-size: 3rem;
+.nav-link{
+  color: white !important;  
 }
 
-h1 {
-  color: red;
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+/*
+  ========================================
+  HOME PAGE
+  ========================================
+*/
+#home-container{
+  margin-top: 25px;
+}
+
+#page-content{
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+/*
+  ========================================
+  Jumbotron
+  Because was deprecated in v5, added to the class more properties
+  to match with the tutorial
+  ========================================
+*/
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  background-image: image-url('jumbo-copy.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+/*
+  ========================================
+  Sticky footer
+  ========================================
+*/
+#sticky-footer {
+  flex-shrink: none;
 }
