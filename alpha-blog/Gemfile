@@ -23,7 +23,7 @@ gem "turbo-rails"
 # Gems needed for bootstrap to be incorporated to the project
 # TODO: Determine if is necessary to restrict this gems to determined environments
 gem 'jquery-rails'
-gem 'dartsass-sprockets'
+gem 'sass-rails'
 gem 'bootstrap', '~> 5.3.2'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
